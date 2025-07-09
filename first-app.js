@@ -1,3 +1,3 @@
 const fs = require('fs')
 console.log('hola mundo 🎉🎉🎉🤭')
-fs.writeFileSync('hola.txt', 'hola desde Node.js‼️‼️');
+fs.writeFileSync('hola pero en git.txt', 'hola gittt‼️‼️');
