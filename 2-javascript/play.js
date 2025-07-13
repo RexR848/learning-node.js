@@ -12,7 +12,7 @@ var userNextAction = 'sing this #### song';
 
 console.log(nametag + ' online.');
 
-function criticaUser(userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction) {
+function fnaf (userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction) {
     var itWasOrNot = userHasADifficultJob;
     var allRight = userHaveAProblem;
     var can = userCanDoAnything;
@@ -51,5 +51,10 @@ function criticaUser(userName, userJob, userHasADifficultJob, userProblem, userH
         + userNextAction
     )
 }
+const addRandom = () => 5 + 7;
 
-console.log(criticaUser(userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction));
+const add = a => a+3;
+
+console.log(add(1));
+console.log(addRandom(1));
+console.log(fnaf(userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction));
