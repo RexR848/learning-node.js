@@ -10,7 +10,7 @@ var userHaveAProblem = true;
 var userCanDoAnything = false;
 var userNextAction = 'sing this #### song';
 
-console.log(nametag + ' online.');
+//console.log(nametag + ' online.');
 
 function fnaf (userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction) {
     var itWasOrNot = userHasADifficultJob;
@@ -55,6 +55,18 @@ const addRandom = () => 5 + 7;
 
 const add = a => a+3;
 
-console.log(add(1));
-console.log(addRandom(1));
-console.log(fnaf(userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction));
+//console.log(add(1));
+//console.log(addRandom(1));
+//console.log(fnaf(userName, userJob, userHasADifficultJob, userProblem, userHaveAProblem, userCanDoAnything, userNextAction));
+
+
+//----------------------------------------------------------------------------------------------------------------
+
+const person = {
+    name: 'Rex',
+    age:17,
+    greet(){
+        console.log('hiii, i am ' + this.name)
+    }
+}
+person.greet();
